@@ -1,6 +1,6 @@
 # name: Discourse 中文本地化服务集合
 # about: 为 Discourse 增加了各种本地化的功能。
-# version: 2.0.0
+# version: 2.0.1
 # authors: Erick Guan
 # url: https://github.com/fantasticfears/discourse-chinese-localization-pack
 
@@ -62,7 +62,7 @@ after_initialize do
     AdminDashboardData.add_problem_check check
   end
 
-  DiscourseEvent.on(:site_setting_saved) do |site_setting|
+  DiscourseEvent.on(:site_setting_changed) do |site_setting|
     if site_setting.name == SITE_SETTING_NAME && site_setting.value_changed? && site_setting.value == "f" # false
       PROVIDERS.each { |provider| SiteSetting.public_send("#{PLUGIN_PREFIX}enable_#{provider[0].downcase}_logins=", false) }
     end
