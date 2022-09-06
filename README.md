@@ -1,4 +1,3 @@
-已在最新 2.8.0.beta9 版本测试通过，后续看情况维护吧。
 
 
 Discourse 中文本地化服务集合
@@ -7,6 +6,7 @@ Discourse 中文本地化服务集合
 More Chinese localization support for Discourse.
 
 这是一个 Discourse 中文本地化插件的集合，一些特性适合增加到 [Discourse 的核心代码库][dsg]中，而这个插件专注于不适用于 Discourse 核心的功能。
+已在 2.9.0.beta9 版本测试通过。
 
 - 包含各国内服务的第三方登录（OAuth）功能。
 - 使用非官方 API 的 Onebox。
