@@ -9,5 +9,3 @@ en:
     zh_l10n_renren_client_secret: "Client secret for Renren authentication, registered at http://dev.renren.com/website"
     zh_l10n_qq_client_id: "Client id for QQ authentication, registered at http://connect.qq.com/"
     zh_l10n_qq_client_secret: "Client secret for QQ authentication, registered at http://connect.qq.com/"
-    zh_l10n_douban_client_id: "Client id for Douban authentication, registered at http://developers.douban.com/"
-    zh_l10n_douban_client_secret: "Client secret for Douban authentication, registered at http://developers.douban.com/"

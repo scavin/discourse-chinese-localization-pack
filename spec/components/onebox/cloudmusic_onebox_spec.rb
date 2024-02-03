@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 load File.expand_path('../../../helpers.rb', __FILE__)
 
 describe Onebox::Engine::CloudMusicOnebox do

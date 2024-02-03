@@ -26,10 +26,6 @@ plugins:
   zh_l10n_enable_douban_logins:
     default: false
     client: true
-  zh_l10n_douban_client_id:
-    default: ''
-  zh_l10n_douban_client_secret:
-    default: ''
   zh_l10n_disable_random_username_sugeestion:
     default: true
   zh_l10n_http_onebox_override:

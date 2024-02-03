@@ -1,25 +1,23 @@
 # name: Discourse 中文本地化服务集合
 # about: 为 Discourse 增加了各种本地化的功能。
-# version: 2.0.1
+# version: 2.1.0
 # authors: Erick Guan
-# url: https://github.com/fantasticfears/discourse-chinese-localization-pack
+# url: https://github.com/erickguan/discourse-chinese-localization-pack
 
 enabled_site_setting :zh_l10n_enabled
 
-gem('omniauth-douban-oauth2', '0.0.7') # https://github.com/liluo/omniauth-douban-oauth2
 gem('omniauth-qq', '0.3.0') # https://github.com/beenhero/omniauth-qq
 gem('omniauth-weibo-oauth2', '0.5.2') # https://github.com/beenhero/omniauth-weibo-oauth2
 
 register_svg_icon 'fab-weibo'
 register_svg_icon 'fab-qq'
-# register_svg_icon 'zhl10n-douban'
 
 # load oauth providers
 Dir[File.expand_path('../lib/auth/*.rb', __FILE__)].each { |f| require f }
 require 'active_support/inflector'
 require "ostruct"
 
-PROVIDERS = ['Weibo', 'QQ', 'Douban']
+PROVIDERS = ['Weibo', 'QQ']
 
 PLUGIN_PREFIX = 'zh_l10n_'.freeze
 SITE_SETTING_NAME = 'zh_l10n_enabled'.freeze
@@ -27,11 +25,7 @@ ONEBOX_SETTING_NAME = 'zh_l10n_http_onebox_override'.freeze
 
 def provider_icon(provider_name)
   provider_name = provider_name.downcase
-  if provider_name == "douban"
-    nil
-  else
-    "fab-#{provider_name}"
-  end
+  "fab-#{provider_name}"
 end
 
 PROVIDERS.each { |name| auth_provider(authenticator: "#{name}Authenticator".constantize.new, icon: provider_icon(name)) }

@@ -12,6 +12,3 @@ en:
       qq:
         title: "with QQ"
         message: "Authenticating with QQ (make sure pop up blockers are not enabled)"
-      douban:
-        title: "with Douban"
-        message: "Authenticating with Douban (make sure pop up blockers are not enabled)"
