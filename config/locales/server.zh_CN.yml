@@ -6,17 +6,8 @@ zh_CN:
     zh_l10n_enable_weibo_logins: "启用微博登录。需要 id 和 secret。接入登录相关指南 https://meta.discoursecn.org/weibo-login-guide"
     zh_l10n_weibo_client_id: "微博帐号验证的客户端帐号（Client id），到 http://open.weibo.com/ 来注册获取"
     zh_l10n_weibo_client_secret: "微博帐号验证的客户端密码（Client secret），到 http://open.weibo.com/ 来注册获取"
-    zh_l10n_enable_renren_logins: "启用人人网登录。需要 id 和 secret。接入登录相关指南 https://meta.discoursecn.org/renren-login-guide"
-    zh_l10n_renren_client_id: "人人帐号验证的客户端帐号（Client id），到 http://dev.renren.com/website 来注册获取"
-    zh_l10n_renren_client_secret: "人人帐号验证的客户端密码（Client secret），到 http://dev.renren.com/website 来注册获取"
-    zh_l10n_enable_qq_logins: "启用 QQ 登录。需要 id 和 secret。接入登录相关指南 https://meta.discoursecn.org/qq-login-guide"
-    zh_l10n_qq_client_id: "QQ 帐号验证的客户端帐号（Client id），到 http://connect.qq.com/ 来注册获取"
-    zh_l10n_qq_client_secret: "QQ 帐号验证的客户端密码（Client secret），到 http://connect.qq.com/ 来注册获取"
-    zh_l10n_enable_douban_logins: "启用豆瓣登录。需要 id 和 secret。接入登录相关指南 https://meta.discoursecn.org/douban-login-guide"
     zh_l10n_disable_random_username_sugeestion: "禁用第三方登录随机生成的用户名（仅数字），问题根源是 Discourse 不支持中文用户名"
     zh_l10n_http_onebox_override: "Onebox 生成时，强制使用 http 资源，如优酷等不提供 https 的手机版播放器，选项可以让手机用户看见播放器。需要 ./launcher restart app 重启以刷新 Redis 缓存"
   dashboard:
     zh_l10n_weibo_config_warning: '服务器允许使用微博登录（zh_l10n_enable_weibo_logins），但是 client id 和 client secret 没有被设定。到<a href="/admin/site_settings">站点设置</a>更新此设定。<a href="https://meta.discoursecn.org/t/%E9%85%8D%E7%BD%AE%E7%94%A8%E5%BE%AE%E5%8D%9A%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95-Discourse/1024" target="_blank">参考设定指南</a>。'
-    zh_l10n_qq_config_warning: '服务器允许使用 QQ 登录（zh_l10n_enable_qq_logins），但是 client id 和 client secret 没有被设定。到<a href="/admin/site_settings">站点设置</a>更新此设定。<a href="https://meta.discoursecn.org/t/%E9%85%8D%E7%BD%AE%E7%94%A8-QQ-%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95-Discourse/1022" target="_blank">参考设定指南</a>。'
-    zh_l10n_renren_config_warning: '服务器允许使用人人登录（zh_l10n_enable_renren_logins），但是 client id 和 client secret 没有被设定。到<a href="/admin/site_settings">站点设置</a>更新此设定。<a href="https://meta.discoursecn.org/t/%E9%85%8D%E7%BD%AE%E7%94%A8%E4%BA%BA%E4%BA%BA%E8%B4%A6%E5%8F%B7%E7%99%BB%E5%BD%95-Discourse/1021" target="_blank">参考设定指南</a>。'
 

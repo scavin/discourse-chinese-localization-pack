@@ -6,7 +6,6 @@
 
 enabled_site_setting :zh_l10n_enabled
 
-gem('omniauth-qq', '0.3.0') # https://github.com/beenhero/omniauth-qq
 gem('omniauth-weibo-oauth2', '0.5.2') # https://github.com/beenhero/omniauth-weibo-oauth2
 
 register_svg_icon 'fab-weibo'
@@ -17,7 +16,7 @@ Dir[File.expand_path('../lib/auth/*.rb', __FILE__)].each { |f| require f }
 require 'active_support/inflector'
 require "ostruct"
 
-PROVIDERS = ['Weibo', 'QQ']
+PROVIDERS = ['Weibo']
 
 PLUGIN_PREFIX = 'zh_l10n_'.freeze
 SITE_SETTING_NAME = 'zh_l10n_enabled'.freeze

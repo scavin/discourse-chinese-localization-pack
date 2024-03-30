@@ -5,7 +5,3 @@ en:
     zh_l10n_enabled: "Enable Chinese localization pack."
     zh_l10n_weibo_client_id: "Client id for Weibo authentication, registered at http://open.weibo.com/"
     zh_l10n_weibo_client_secret: "Client secret for Weibo authentication, registered at http://open.weibo.com/"
-    zh_l10n_renren_client_id: "Client id for Renren authentication, registered at http://dev.renren.com/website"
-    zh_l10n_renren_client_secret: "Client secret for Renren authentication, registered at http://dev.renren.com/website"
-    zh_l10n_qq_client_id: "Client id for QQ authentication, registered at http://connect.qq.com/"
-    zh_l10n_qq_client_secret: "Client secret for QQ authentication, registered at http://connect.qq.com/"
