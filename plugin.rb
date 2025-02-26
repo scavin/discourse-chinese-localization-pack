@@ -7,7 +7,7 @@
 enabled_site_setting :zh_l10n_enabled
 
 # gem('omniauth-weibo-oauth2', '0.5.2') # https://github.com/beenhero/omniauth-weibo-oauth2
-gem 'omniauth-weibo-oauth2', git: 'https://github.com/scavin/omniauth-weibo-oauth2', branch: 'master'
+gem 'omniauth-weibo-oauth2', github: 'scavin/omniauth-weibo-oauth2', branch: 'master'
 
 
 register_svg_icon 'fab-weibo'
